@@ -1,8 +1,10 @@
 <h1>Danbot: A basic Twitterbot</h1>
 <h2>Danbot periodically posts very simple statuses to Twitter. Right now they look like this:
 	<br>
-	<img src= 'screenshot1.jpg'/>
 </h2>
+<p>
+	<img src= "screenshot1.jpg" width="350" height="400" />
+</p>
 <ul>
 	<li>
 		Download the project folder to your local machine
