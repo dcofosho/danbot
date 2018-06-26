@@ -16,6 +16,7 @@
 				'CONSUMER_KEY' : 'consumer key goes here',
 				'ACCESS_KEY' : 'access key goes here'
 			}
+			<br>
 			secrets = {
 				'CONSUMER_SECRET' : 'consumer secret goes here',
 				'ACCESS_SECRET' : 'access secret goes here'
