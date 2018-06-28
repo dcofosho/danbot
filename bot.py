@@ -16,18 +16,19 @@ ACCESS_KEY = credentials.keys['ACCESS_KEY']
 CONSUMER_SECRET = credentials.secrets['CONSUMER_SECRET']
 ACCESS_SECRET = credentials.secrets['ACCESS_SECRET']
 
-#INTERVAL = 60 * 60 * 6  # tweet every 6 hours
-INTERVAL = 15  # every 15 seconds, for testing
+#INTERVAL = 60 * 60 * 24  # tweet every 24 hours
+INTERVAL = 5  # every 15 seconds, for testing
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
-counter = 1
+#counter = 1
 while True:
 	utils.print_flush("about to get status...\n")
-	status = text_generators.hello_twitter(counter)
+	#status = text_generators.hello_twitter(counter)
+	status=text_generators.get_nyt_tweet()
 	utils.print_flush(status)
 	api.update_status(status)
-	counter += 1
+	#counter += 1
 	time.sleep(INTERVAL)

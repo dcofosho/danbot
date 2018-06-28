@@ -1,9 +1,9 @@
 <h1>Danbot: A basic Twitterbot</h1>
-<h2>Danbot periodically posts very simple statuses to Twitter. Right now they look like this:
+<h2>In this latest commit, danbot is now posting NY Times articles 'on this day in history'; topic is currently set to politics, but this can be changed in the text_generators.py get_nyt_tweet() function:
 	<br>
 </h2>
 <p>
-	<img src= "screenshot1.JPG" width="350" height="400" />
+	<img src= "screenshot2.JPG" width="350" height="400" />
 </p>
 <ul>
 	<li>
