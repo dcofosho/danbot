@@ -24,6 +24,11 @@
 				'ACCESS_SECRET' : 'access secret goes here'
 			}
 		</code>
+		<br>
+		If you are using the New York Times text generator function, you will need to get an API key and include an nytkey variable in your credentials file in the format:
+		<code>
+			nytkey = 'ny times api key goes here'
+		</code>
 	</li>
 	<li>
 		Set the post interval variable ('INTERVAL') in bot.py
