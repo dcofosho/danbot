@@ -5,6 +5,10 @@
 <p>
 	<img src= "screenshot2.JPG" width="350" height="400" />
 </p>
+<br>
+<h3>
+	Visit danbot <a href='https://twitter.com/dantherobot' target='_blank'>here,</a> he is currently set to tweet once a day from my AWS Lightsail Ubuntu instance using 'screen'!
+</h3>
 <ul>
 	<li>
 		Download the project folder to your local machine

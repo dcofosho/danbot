@@ -19,8 +19,8 @@ def get_nyt_tweet():
 			numYearsAgo = randint(2, 150)
 			target_date=int(x_years_ago(numYearsAgo))
 			print('begin date equals %s'%str(target_date))
-			articles = api.search(q='politics', begin_date=target_date, end_date=target_date)
-			tweet = 'On this day in political history, %s years ago: %s'%(str(numYearsAgo), articles['response']['docs'][0]['web_url'],)
+			articles = api.search(q="Brooklyn", begin_date=target_date, end_date=target_date)
+			tweet = 'On this day in Brooklyn history, %s years ago: %s'%(str(numYearsAgo), articles['response']['docs'][0]['web_url'],)
 			print(tweet)
 			return tweet
 		except:
