@@ -3,7 +3,7 @@
 	<br>
 </h2>
 <p>
-	<img src= "screenshot3.JPG" width="499" height="929" />
+	<img src= "screenshot3.JPG" width="929" height="499" />
 </p>
 <br>
 <h3>
