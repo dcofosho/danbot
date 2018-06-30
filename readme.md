@@ -7,7 +7,7 @@
 </p>
 <br>
 <h3>
-	Visit danbot <a href='https://twitter.com/dantherobot' target='_blank'>here,</a> he is currently set to tweet once a day from my AWS Lightsail Ubuntu instance using 'screen'!
+	Visit danbot <a href='https://twitter.com/dantherobot' target='_blank'>here,</a> he is currently set to tweet once a day from my AWS Lightsail Ubuntu instance using <a href='https://www.vultr.com/docs/using-screen-on-ubuntu-14-04'>'Screen!'</a>
 </h3>
 <ul>
 	<li>
